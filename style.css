@@ -57,3 +57,11 @@ button:active {
     box-shadow: 0 1px #a8a8a8;
     transform: translateY(2px);
 }
+
+button[data-key="13"] {
+    grid-column: span 2;
+    font-size: 35px;
+    background-color: #36e700;
+    font-weight: bold;
+    color: white;
+}
