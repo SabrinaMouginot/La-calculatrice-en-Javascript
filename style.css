@@ -14,6 +14,15 @@ body {
     background-image: linear-gradient(to top, #a18cd1 0%, #fbf2c2 100%);
 }
 
+.calculatrice {
+    display: flex;
+    flex-direction: column;
+    background-color: #222222;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 5px black;
+}
+
 
 
 .touches {
