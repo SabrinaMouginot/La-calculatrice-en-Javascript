@@ -23,7 +23,19 @@ body {
     box-shadow: 0 5px black;
 }
 
-
+.ecran {
+    width: 100%;
+    background-color: rgb(202, 239, 244);
+    height: 100px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 5px;
+}
 
 .touches {
     display: grid;
