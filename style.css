@@ -63,7 +63,7 @@ button:active {
 button[data-key="13"] {
     grid-column: span 2;
     font-size: 35px;
-    background-color: #36e700;
+    background-color: #194bff;
     font-weight: bold;
     color: white;
 }
