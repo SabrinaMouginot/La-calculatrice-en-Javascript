@@ -58,10 +58,20 @@ button:active {
     transform: translateY(2px);
 }
 
+/******************************** LE BOUTON EGAL *************************/
+
 button[data-key="13"] {
     grid-column: span 2;
     font-size: 35px;
     background-color: #36e700;
+    font-weight: bold;
+    color: white;
+}
+
+/******************************** LE BOUTON C ***************************/
+
+button[data-key="8"] {
+    background-color: #ff9900;
     font-weight: bold;
     color: white;
 }
