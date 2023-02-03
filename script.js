@@ -11,7 +11,24 @@ document.addEventListener("keydown", (e) => {
 touches.forEach((touche) => {
     touche.addEventListener("click", (e) => {
         const valeur = e.target.dataset.key;
+        calculer(valeur);
     });
 });
 
-
+const calculer = (valeur) => {
+    if (listeKeycode.includes(valeur)) {
+        switch (valeur) {
+            case "8":
+                ecran.textContent = "";
+                break;
+            case "13":
+                const calcul = eval(ecran.textContent);
+                ecran.textContent = calcul;
+                break;
+            default:
+                const indexKeycode = listeKeycode.indexOf(valeur);
+                const touche = touches[indexKeycode];
+                ecran.textContent += touche.innerHTML;
+        }
+    }
+};
